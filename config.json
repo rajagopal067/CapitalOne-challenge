@@ -1,18 +1,20 @@
 {
   "fieldConfig": {
     "0": {
-      "path": "timestamps",
-      "allow_blank":false
-    }
-  },
-  "defaultConfig": {
-
-    "analyzer": {
-      "tokenizers": [
-        "whitespace"
-      ]
+      "path": "title_signature",
+      "prefix": "",
+      "allow_blank": false,
+      "analyzer": {
+        "tokenizers": [
+          "character_n_7"
+        ]
+      }
     }
   },
   "settings": {
-      }
+    "character_n_7": {
+      "type": "character_ngram",
+      "size": 7
+    }
+  }
 }
