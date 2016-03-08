@@ -14,7 +14,7 @@
   "settings": {
     "character_n_7": {
       "type": "character_ngram",
-      "size": 7
+      "size": 20
     }
   }
 }
