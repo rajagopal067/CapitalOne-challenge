@@ -1,7 +1,7 @@
 {
   "fieldConfig": {
     "0": {
-      "path": "title_signature",
+      "path": "name",
       "prefix": "",
       "allow_blank": false,
       "analyzer": {
@@ -14,7 +14,7 @@
   "settings": {
     "character_n_7": {
       "type": "character_ngram",
-      "size": 20
+      "size": 10
     }
   }
 }
